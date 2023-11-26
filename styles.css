@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: rgb(0, 0, 0);
+    background-color: #333;
     color: rgb(8, 8, 8);
     text-align: center;
     
@@ -35,7 +35,19 @@ footer {
     font: bolder;
     
 }
+nav {
+    display: flex;
+    justify-content: right;
+    margin-top: 0px;
+    font-size: large;
+}
 
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-top: 2px;
+    font-weight: bold;
+}
    
 
 .content1{
@@ -60,6 +72,7 @@ footer {
     font-size: 16px; /* Set the font size if needed */
     color: black;
     background-color: rgb(51, 51, 136);
+    margin-right: 20px;
     
 }
 
