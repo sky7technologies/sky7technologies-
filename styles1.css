@@ -1,0 +1,137 @@
+         body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: auto; /* Prevent scrollbars during animations */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+       
+        
+        .animation {
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+
+
+        .animated-box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 20px;
+            display: inline-block;
+            animation: bounce 2s infinite;
+        }
+        .animated-box1{
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 20px;
+            display: inline-block;
+            animation: bounce 3s infinite;
+        }
+        .animated-box2 {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 20px;
+            display: inline-block;
+            animation: bounce 2s infinite;
+        }
+        .animated-box3 {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 20px;
+            display: inline-block;
+            animation: bounce 3s infinite;
+        }
+        .animated-box4{
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 20px;
+            display: inline-block;
+            animation: bounce 2s infinite;
+        }
+        .animated-box5 {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 20px;
+            display: inline-block;
+            animation: bounce 3s infinite;
+        }
+        .animated-box6 {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 20px;
+            display: inline-block;
+            animation: bounce 2s infinite;
+        }
+        .animated-box7 {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 20px;
+            display: inline-block;
+            animation: bounce 3s infinite;
+        }
+        .animated-box8 {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 20px;
+            display: inline-block;
+            animation: bounce 2s infinite;
+        }
+        .animated-box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            margin: 20px;
+            display: inline-block;
+            animation: bounce 3s infinite;
+        }
+
+        
+            
+
+        
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+
+       
+
+       
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }

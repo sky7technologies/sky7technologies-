@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: content-box;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(8, 8, 8);
+    text-align: center;
+    
+    padding: 1em;
+}
+
+main {
+    background-color: white;
+    padding: 0;
+}
+
+footer {
+    background-color: rgb(34, 32, 32);
+    color: rgb(238, 5, 5);
+    text-align: center;
+    padding: 1em 0;
+
+}
+.welcome {
+    
+    background-color:rgb(14, 13, 13);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font: bolder;
+    
+}
+
+   
+
+.content1{
+
+    color: rgb(14, 13, 13);
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 1%;
+}
+.contact{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.content{
+    background-color: white;
+    color: black;
+
+}
+.large-button {
+    width: 70px; /* Set the desired width */
+    height: 25px; /* Set the desired height */
+    font-size: 16px; /* Set the font size if needed */
+    color: black;
+    background-color: rgb(51, 51, 136);
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
